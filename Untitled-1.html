@@ -1,0 +1,87 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desert Adventure Lending Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 20%;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+            background-image: url('images/IMG-20241127-WA0009.jpg');
+            background-size: cover;
+           background-position: center;
+            color: #8B4513;
+            min-height: 100vh;
+            background-color: #FAF0E6;
+        }
+        .video-container {
+            width: 100%;
+            margin: 20px 0;
+            border: 3px solid #8B4513;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .whatsapp-button {
+            background-color: #25D366;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            display: inline-block;
+            margin: 20px 0;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+           
+            padding: 20px;
+            border-radius: 10px;
+        }
+        input {
+            padding: 10px;
+            margin: 0 auto;
+            width: 100%;
+            max-width: 300px;
+            border: 1px solid #8B4513;
+            background-color: #FAF0E6;
+        }
+        h1 {
+            color: #8B4513;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 1.5em;
+            }
+            .whatsapp-button {
+                padding: 8px 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Desert Adventure Awaits</h1>
+    
+    <div class="video-container">
+        <iframe width="100%" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+    </div>
+    
+    <a href="https://wa.me/+972509701174" class="whatsapp-button" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp Logo" style="width: 20px; vertical-align: middle; margin-right: 5px;">
+        Contact on WhatsApp
+    </a>
+    
+    <form>
+        <input type="email" placeholder="Enter your email" required>
+        <input type="number" placeholder="Enter your age" required>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
